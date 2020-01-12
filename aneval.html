@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Matt Miller Pratt SLIS Practicum</title>
+    <meta name="description" content="My 2011 Pratt SLIS practicum project page">
+    <meta name="author" content="Matthew Miller">
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- styles -->
+    <link href="css/bootstrap-1.1.0.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+    -->
+    
+    
+    <style type="text/css">
+	
+		.topBarLinks{
+			font-size:115%;	
+		}
+		.p{
+			font-size:90%;
+		}
+	
+	
+	
+	
+	
+	</style>
+    
+  </head>
+  
+     <body>
+    
+        <div class="topbar">
+          <div class="fill">
+            <div class="container fixed">
+              <h3><a href="/"><span style="color:#FFB90B;">Pratt</span> SILS Practicum</a></h3>
+              <ul>
+                <li ><a class="topBarLinks" href="index.html">Identification</a></li>
+                <li ><a class="topBarLinks" href="nature.html">Nature of the Work</a></li>
+                <li ><a class="topBarLinks" href="journal.html">Journal</a></li>
+                <li ><a class="topBarLinks" href="lit.html">Literature Review</a></li>
+                <li class="active"><a class="topBarLinks"  href="aneval.html">Analysis & Evaluation</a></li>
+                                                                                                    
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        
+	 
+
+       <div class="container">
+        
+        	<div style="margin-top:60px; margin-bottom:50px;">
+            	<style>
+                
+					h3{
+						font-size:120%;
+						
+					}
+                </style>
+            
+                
+                <div class="row">
+                
+                  <div class="span14 columns">
+                  
+                  	<h3>Preface</h3>
+                  	<p>My interest in digital collections and geolocation emerged out of my internship at the Museum. We generated a lot of information in addition to the digital image produced. Data such as history, location, current condition, etc. were created for each photographed digitized. My interest focused on what would be the best way to present this information to others? The Museum presents its digital collections in a straight forward manner, images grouped together with related results accompanied with relevant text data on a web page.  But I was curious about other methods to present the data that might be more engaging or informative.</p>
+                    <p>I decided to use the information we generated (publicly available from the Museum website) and present it in a geo-spatial manner. I spent significant time (20+ hours) developing a prototype website that was customized to best present the CHART data. My goal was to see what could be learned from developing a system and its strengths and weaknesses. This application represents the significant portion of my practicum project with the remaining time spent looking at what others are doing in the area of geolocation.</p>
+                  
+				  </div>
+	    
+                </div>
+            
+            	<br>
+
+                <div class="row">
+                
+                  <div class="span7 columns">
+                  
+                  	<div style=" margin-top:20px; height: 40px; padding:20px; text-align:center; background-color:whitesmoke; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;">
+                    
+                    	<a href="chart/" target="_new" class="btn large primary">Launch Geolocation Demo</a>
+                    
+                    </div>
+                  
+              
+				  </div>
+                  <div class="span8 columns">
+                  
+					<dl style="font-size:100%;">
+                    	<dt>Basic usage:</dt>
+                        <dd>-Navigate the same as using Google Maps</dd>
+                        <dd>-Use the buttons at the top Left to filter results and locate landmarks</dd>
+                        <dd>-Hover over marker to see larger image.</dd>
+                        <dd>-Click on marker to get more information window.</dd>                                                
+                        <dd>-In more info  window use the slider at the bottom (if there) to transition between the photo and today</dd>	                                                                                                
+                    </dl>
+				  </div>
+                  	    
+                </div>            
+            
+            
+                <div class="row">
+                
+                  <div class="span14 columns">
+                  
+                  	<h3>Analysis</h3>
+                  	<p>Photographs are disembodied by nature. They represent a geo-spatial location but only if you are familiar with the location is one able to place a photograph into context. When it comes to historical images the problems are magnified. By attaching an image to a map the interaction with the viewer is much more involved and engaging. This demo allows the viewer to interact with the images on the map but also go a step further by providing a library of images available to be pinned to the map. Through participation, the viewer becomes that much more engaged with the images and history they present. Contribution by the visitor is a feature that I feel is paramount in a geolocation system.</p>
+                    <p>The difficulty with historic images is that their context has often been removed. Buildings are torn down, streets change, etc. To better connect the visitor with the historic image I included a feature that allows the viewer to transition between the photo and a current image of the location. This is accomplished through using a Google street view for locations in that system and visitor contributed images for locations that are not street view assessable.</p>
+                    <p>If visitor engagement is a high priority we must provide a vector for contribution. One way this can be accomplished is to provide a mobile application built on the system that allows the visitor to interact with the data and contribute. To this end I developed a very early version of a smart phone application (Android phones) that allows the user to overlay the historic images over their phone's camera and take pictures that are uploaded to the website. This allows a user of the phone app to take the "after" image of a before and after group. Examples of these images can be seen in demo with the locations found in Prospect Park (you need to click on the smaller image to the right of the large image to overlay it). </p>
+                    <p>The system I developed is a very simple demonstration but hopefully conveys the feature's critical in a geo-spatial presentation: Simplicity, engagement, incentive for participation.</p>
+                  	<br>
+					<h3>Trends</h3>
+                    <p>Many services have emerged specializing in presenting historic photographs geo-spatially, this is a quick rundown:</p>
+					<dl style="font-size:100%;">
+                    	<dt>Sepiatown: <a href="http://sepiatown.com/">http://sepiatown.com/</a></dt>
+                        <dd>Cultural project created by an editor at the Wall Street Journal, hopes to create a grand narrative of historic images from around the country.<br><br></dd>
+
+					  <dt>HistoryPin: <a href="http://www.historypin.com">http://www.historypin.com</a></dt>
+                      <dd>Google collaboration. Also trying to create a large narrative of historic photos from around the world. Works with social media, is able to imports from flickr, for example. Also has a very developed mobile application to help explore.<br><br></dd>
+
+						<dt>Recollection: <a href="http://www.digitalpreservation.gov/partners/recollection/">http://www.digitalpreservation.gov/partners/recollection/</a></dt>
+                      <dd>A new data visualization and geolocation tool from the Library of Congress. Provides a tool for institutions to convert their records presentations.<br><br></dd>                        
+
+                    </dl>                    
+                  	
+                  	<h3>Conclusion</h3>
+                    <p>Using geolocation to present collections is without a doubt an effective and engaging method to share and explore an intuition's resources. There are questions of whether using one of the larger public services mentioned above or creating your own system is a better choice.  Yet it seems clear that as mobile technology continues to develop it will play an increasingly significant role is how we interact with digital collections.</p>
+                  
+				  </div>
+	    
+                </div>
+            
+            	<br>            
+            
+            
+            
+            </div>      
+        
+        
+        </div>
+
+
+
+
+     </body>  
+ 
+ </html>
